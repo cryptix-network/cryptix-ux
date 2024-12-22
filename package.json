@@ -6,7 +6,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptix-project/cryptix-ux"
+    "url": "git+https://github.com/cryptix-network/cryptix-ux"
   },
   "keywords": [],
   "dependencies": {},
