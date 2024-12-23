@@ -283,8 +283,8 @@ export class CryptixWalletMobile extends CryptixWalletUI{
 		let PWAVersion = window.PWA?.version||'';
 
 		let donationAddresses = [
-			["Cryptix Devfund donations:", "cryptix:qzrq7v5jhsc5znvtfdg6vxg7dz5x8dqe4wrh90jkdnwehp6vr8uj7csdss2l7"],
-			["Cryptix WebWallet donations:", "cryptix:qqe3p64wpjf5y27kxppxrgks298ge6lhu6ws7ndx4tswzj7c84qkjlrspcuxw"],
+			["Cryptix Devfund donations:", "cryptix:qrjefk2r8wp607rmyvxmgjansqcwugjazpu2kk2r7057gltxetdvk8gl9fs0w"],
+			["Cryptix WebWallet donations:", "cryptix:qrjefk2r8wp607rmyvxmgjansqcwugjazpu2kk2r7057gltxetdvk8gl9fs0w"],
 		]
 
 		return html`
