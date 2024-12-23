@@ -466,7 +466,7 @@ project .license {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: normal;
-	xcolor: var(--flow-primary-color)
+	color: var(--flow-primary-color)
 }
 
 project name {
