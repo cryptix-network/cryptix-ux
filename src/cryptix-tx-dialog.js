@@ -20,7 +20,7 @@ class CryptixTXDialog extends CryptixDialog{
 				--k-pagination-border-color:var(--flow-primary-color);
 			}
 			.pagination a{
-				border: var(--flow-btn-border, 2px solid var(--flow-border-color, var(--flow-primary-color, #b24545)));
+				border: var(--flow-btn-border, 2px solid var(--flow-border-color, var(--flow-primary-color, #0097e1)));
 				border-radius:var(--flow-btn-radius, 8px);
 				border-width:var(--flow-btn-border-width, 2px);
 			}

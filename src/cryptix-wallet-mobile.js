@@ -33,7 +33,7 @@ export class CryptixWalletMobile extends CryptixWalletUI{
 			}
 
 			.pagination a{
-				border: var(--flow-btn-border, 2px solid var(--flow-border-color, var(--flow-primary-color, #b24545)));
+				border: var(--flow-btn-border, 2px solid var(--flow-border-color, var(--flow-primary-color, #0097e1)));
 				border-radius:var(--flow-btn-radius, 8px);
 				border-width:var(--flow-btn-border-width, 2px);
 				padding:var(--flow-page-btn-padding, var(--flow-btn-padding, 5px))
@@ -177,7 +177,7 @@ export class CryptixWalletMobile extends CryptixWalletUI{
 			.recent-transactions .tx-rows{max-height:none;}
 			flow-expandable [slot="title"] fa-icon{
 				--fa-icon-size: var(--flow-expandable-icon-box-svg-width,24px);
-				--fa-icon-color:var(--flow-primary-color, #b24545);
+				--fa-icon-color:var(--flow-primary-color, #0097e1);
 			    margin-right: var(--flow-expandable-icon-box-svg-margin-right,8px);
 			}
 			flow-expandable [slot="title"].center-icon{
