@@ -1,12 +1,12 @@
 {
   "name": "@cryptix/ux",
-  "version": "1.0.30",
+  "version": "0.0.7",
   "description": "Cryptix Wallet User Interface Framework",
   "main": "cryptix-ux.js",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptix-network/cryptix-ux"
+    "url": "https://github.com/cryptix-network/cryptix-ux"
   },
   "keywords": [],
   "dependencies": {},
