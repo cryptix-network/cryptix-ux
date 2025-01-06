@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background: white;
+	background: #03050e;
 	display: flex;
 	flex-direction: column;
 	font-family: 'Exo 2';
@@ -19,19 +19,21 @@ body {
 	opacity: 1;
 	transition: opacity 0.5s ease;
 	font-size: 18px;
+	--flow-dialog-color: #fff;
 	--flow-input-btn-font-size: 18px;
-	--flow-primary-color: #0097e1;
-	--flow-border-color: #0097e1;
+	--flow-primary-color: #00bcd4;
+	--flow-border-color: #00bcd4;
 	--flow-border-hover-color: #465999;
 	--flow-tab-font-size: 1.5rem;
-	--flow-link-color: #0097e1;
+	--flow-link-color: #00bcd4;
 	--flow-link-hover-color: #465c99;
-	--flow-btn-primary-bg-color: #0097e1;
-	--flow-btn-primary-border-color: #0097e1;
-	--flow-btn-hover-primary-color: #95a6cb;
-	--flow-btn-hover-border-color: #4c7dd8;
+	--flow-btn-primary-bg-color: #00bcd4;
+	--flow-btn-primary-border-color: #00bcd4;
+	--flow-btn-hover-primary-color: #03abc0;
+	--flow-btn-hover-border-color: #fff;
 	--flow-data-badge-caption: #000;
-	--flow-data-badge-caption-shadow: #0097e1;
+	--k-pagination-color: #fff;
+	--flow-data-badge-caption-shadow: #00bcd4;
 	--flow-data-badge-graph-fill: rgba(69, 76, 178, 0.15);
 	--flow-data-badge-graph-stroke: rgb(69, 80, 178);
 	--flow-data-badge-graph-stroke-width: 1px;
@@ -90,7 +92,7 @@ body {
 	--tx-bg-color-2: #FEFEFE;
 	--tx-bg-color-3: #DDD;
 	--tx-border-color: #DDD;
-	--cryptix-dialog-bg-color: rgba(255, 255, 255, 0.5);
+	--cryptix-dialog-bg-color: #03050e;
 	--cryptix-lock-screen-bg-color: var(--flow-background-color);
 	/* --flow-btn-text-transform: uppercase; */
 	--flow-btn-display: inline-block;
@@ -98,31 +100,31 @@ body {
 
 body.flow-theme-dark {
 	background-color: #12193f;
-	--flow-primary-color: #95a6cb;
-	--flow-border-color: #0097e1;
+	--flow-primary-color: #03abc0;
+	--flow-border-color: #03abc0;
 	--flow-data-badge-value: #fff;
 	--flow-data-badge-caption: #ccc;
-	--flow-data-badge-caption-shawod: #0097e1;
+	--flow-data-badge-caption-shawod: #03abc0;
 	--flow-data-badge-graph-fill: rgba(69, 80, 178, 0.5);
 	--flow-data-badge-graph-stroke: rgb(69, 85, 178);
 	--flow-data-badge-graph-stroke-width: 1px;
 	--flow-data-badge-graph-stroke-opacity: 0.75;
 	--flow-markdown-code-background-color: rgba(0,0,0,0.9);
 	--flow-markdown-code-border: #333;
-	--flow-background-color: #15123f;
+	--flow-background-color: #0b0e13;
 	--flow-foreground-color: #FFFFFF;
 	--flow-terminal-bg-color: #12193f;
 	--flow-terminal-color: #fff;
 	--flow-terminal-cursor: #ccc;
 	--flow-terminal-selection: rgba(100, 100, 100, 0.5);
-	--flow-input-box-shadow: 0 0px 4px 0 #0097e1,
+	--flow-input-box-shadow: 0 0px 4px 0 #03abc0,
 		0 0px 0px -3px rgba(121, 255, 235, 0.2),
 		0 0px 1px 0 rgba(65, 255, 212, 0.12);
 	--flow-box-shadow: var(--flow-input-box-shadow);
 	--tx-bg-color-1: var(--flow-background-color);
 	--tx-bg-color-2: #12193f;
 	--tx-bg-color-3: #0e163c;
-	--cryptix-dialog-bg-color: #12193f;
+	--cryptix-dialog-bg-color: #03050e;
 	--cryptix-wallet-tab-border-bottom-color: #0e163c;
 	--tx-border-color: #060821;
 	--flow-tab-active-bg-top: #12193f;
@@ -304,9 +306,9 @@ body:not(.flow-theme-dark) .settings-script .script-box {
 }
 
 body {
-	--flow-background-color: #FFFFFF;
-	--flow-foreground-color: #12193f;
-	--flow-terminal-bg-color: #FFF;
+	--flow-background-color: #03050e;
+	--flow-foreground-color: #0b0e13;
+	--flow-terminal-bg-color: #0b0e13;
 	--flow-terminal-color: #000;
 	--flow-terminal-cursor: #555;
 	--flow-terminal-selection: rgba(100, 100, 100, 0.5);
@@ -644,6 +646,7 @@ flow-selector .menu-item {
 	border: 0px;
 	box-sizing: border-box;
 	align-items: center;
+	color: #fff;
 }
 
 .is-mobile dialog .heading, .is-mobile dialog .body, .is-mobile dialog .buttons {
@@ -689,6 +692,7 @@ flow-dialog flow-input {
 flow-dialog.big .heading fa-icon {
 	--fa-icon-size: 70px;
 	margin-right: 20px;
+	color: #fff;
 }
 
 flow-dialog.big .heading {
